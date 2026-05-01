@@ -13,7 +13,7 @@ A production-ready, scalable backend API for the Hotel Booking Management System
 
 ---
 
-## 🎯 Backend Overview
+## Backend Overview
 
 ### **What This Backend Provides**
 
@@ -21,32 +21,32 @@ This backend serves as the **core API engine** for a comprehensive hotel booking
 
 ### **Core Responsibilities**
 
-- **🔐 Authentication & Authorization**: JWT-based secure user management
-- **🏨 Hotel Management**: CRUD operations for hotel listings and details
-- **📅 Booking System**: Real-time booking creation and management
-- **💳 Payment Processing**: Stripe integration for secure transactions
-- **📊 Analytics Engine**: Business insights and performance metrics
-- **🖼️ File Management**: Cloudinary integration for image handling
-- **🔒 Security**: Rate limiting, CORS, input validation, and data protection
+- ** Authentication & Authorization**: JWT-based secure user management
+- ** Hotel Management**: CRUD operations for hotel listings and details
+- ** Booking System**: Real-time booking creation and management
+- ** Payment Processing**: Stripe integration for secure transactions
+- ** Analytics Engine**: Business insights and performance metrics
+- **️ File Management**: Cloudinary integration for image handling
+- ** Security**: Rate limiting, CORS, input validation, and data protection
 
 ### **Architecture Highlights**
 
 ```bash
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   Express.js    │    │   MongoDB      │    │   JWT Auth      │
-│   (API Server)  │◄──►│   (Database)   │◄──►│   (Security)    │
-└─────────────────┘    └─────────────────┘    └─────────────────┘
-         │                       │                       │
-         ▼                       ▼                       ▼
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   Multer        │    │   Cloudinary    │    │   Stripe        │
-│  (File Upload)  │    │  (Image Mgmt)   │    │  (Payments)     │
-└─────────────────┘    └─────────────────┘    └─────────────────┘
+┌─────────────────┐  ┌─────────────────┐  ┌─────────────────┐
+│  Express.js  │  │  MongoDB   │  │  JWT Auth   │
+│  (API Server) │◄──►│  (Database)  │◄──►│  (Security)  │
+└─────────────────┘  └─────────────────┘  └─────────────────┘
+     │            │            │
+     ▼            ▼            ▼
+┌─────────────────┐  ┌─────────────────┐  ┌─────────────────┐
+│  Multer    │  │  Cloudinary  │  │  Stripe    │
+│ (File Upload) │  │ (Image Mgmt)  │  │ (Payments)   │
+└─────────────────┘  └─────────────────┘  └─────────────────┘
 ```
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### **Prerequisites**
 
@@ -101,41 +101,41 @@ STRIPE_API_KEY=sk_test_your-stripe-secret-key
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```bash
 hotel-booking-backend/
 ├── src/
-│   ├── index.ts                    # Server entry point & Express app setup
-│   ├── swagger.ts                  # API documentation configuration
-│   ├── middleware/
-│   │   └── auth.ts                 # JWT authentication middleware
-│   ├── models/
-│   │   ├── user.ts                 # User data model
-│   │   ├── hotel.ts                # Hotel data model
-│   │   ├── booking.ts              # Booking data model
-│   │   ├── review.ts               # Review data model
-│   │   └── analytics.ts            # Analytics data model
-│   ├── routes/
-│   │   ├── auth.ts                 # Authentication endpoints
-│   │   ├── users.ts                # User management endpoints
-│   │   ├── hotels.ts               # Hotel search & public endpoints
-│   │   ├── my-hotels.ts            # Hotel owner management
-│   │   ├── bookings.ts             # Booking management
-│   │   ├── my-bookings.ts          # User booking history
-│   │   ├── business-insights.ts    # Analytics & business insights
-│   │   └── health.ts               # Health check endpoints
-│   └── shared/
-│       └── types.ts               # Shared TypeScript types
-├── dist/                          # Compiled JavaScript output
-├── package.json                   # Dependencies & scripts
-├── tsconfig.json                  # TypeScript configuration
-└── README.md                      # This file
+│  ├── index.ts          # Server entry point & Express app setup
+│  ├── swagger.ts         # API documentation configuration
+│  ├── middleware/
+│  │  └── auth.ts         # JWT authentication middleware
+│  ├── models/
+│  │  ├── user.ts         # User data model
+│  │  ├── hotel.ts        # Hotel data model
+│  │  ├── booking.ts       # Booking data model
+│  │  ├── review.ts        # Review data model
+│  │  └── analytics.ts      # Analytics data model
+│  ├── routes/
+│  │  ├── auth.ts         # Authentication endpoints
+│  │  ├── users.ts        # User management endpoints
+│  │  ├── hotels.ts        # Hotel search & public endpoints
+│  │  ├── my-hotels.ts      # Hotel owner management
+│  │  ├── bookings.ts       # Booking management
+│  │  ├── my-bookings.ts     # User booking history
+│  │  ├── business-insights.ts  # Analytics & business insights
+│  │  └── health.ts        # Health check endpoints
+│  └── shared/
+│    └── types.ts        # Shared TypeScript types
+├── dist/             # Compiled JavaScript output
+├── package.json          # Dependencies & scripts
+├── tsconfig.json         # TypeScript configuration
+└── README.md           # This file
 ```
 
 ---
 
-## 🔧 Technology Stack
+## Technology Stack
 
 ### **Core Technologies**
 
@@ -171,72 +171,72 @@ hotel-booking-backend/
 
 ---
 
-## 🔌 API Endpoints
+## API Endpoints
 
 ### **Authentication Routes** (`/api/auth`)
 
-| Method | Endpoint          | Description        | Auth Required |
+| Method | Endpoint     | Description    | Auth Required |
 | ------ | ----------------- | ------------------ | ------------- |
-| `POST` | `/login`          | User login         | ❌            |
-| `POST` | `/logout`         | User logout        | ✅            |
-| `GET`  | `/validate-token` | Validate JWT token | ✅            |
+| `POST` | `/login`     | User login     |       |
+| `POST` | `/logout`     | User logout    |       |
+| `GET` | `/validate-token` | Validate JWT token |       |
 
 ### **User Management** (`/api/users`)
 
-| Method | Endpoint    | Description              | Auth Required |
+| Method | Endpoint  | Description       | Auth Required |
 | ------ | ----------- | ------------------------ | ------------- |
-| `POST` | `/register` | Create new user account  | ❌            |
-| `GET`  | `/me`       | Get current user profile | ✅            |
+| `POST` | `/register` | Create new user account |       |
+| `GET` | `/me`    | Get current user profile |       |
 
 ### **Hotel Management** (`/api/hotels`)
 
-| Method | Endpoint  | Description                | Auth Required |
+| Method | Endpoint | Description        | Auth Required |
 | ------ | --------- | -------------------------- | ------------- |
-| `GET`  | `/`       | List all hotels            | ❌            |
-| `GET`  | `/:id`    | Get hotel by ID            | ❌            |
-| `GET`  | `/search` | Search hotels with filters | ❌            |
+| `GET` | `/`    | List all hotels      |       |
+| `GET` | `/:id`  | Get hotel by ID      |       |
+| `GET` | `/search` | Search hotels with filters |       |
 
 ### **Hotel Owner Routes** (`/api/my-hotels`)
 
-| Method   | Endpoint | Description        | Auth Required |
+| Method  | Endpoint | Description    | Auth Required |
 | -------- | -------- | ------------------ | ------------- |
-| `POST`   | `/`      | Create new hotel   | ✅            |
-| `GET`    | `/`      | List user's hotels | ✅            |
-| `GET`    | `/:id`   | Get specific hotel | ✅            |
-| `PUT`    | `/:id`   | Update hotel       | ✅            |
-| `DELETE` | `/:id`   | Delete hotel       | ✅            |
+| `POST`  | `/`   | Create new hotel  |       |
+| `GET`  | `/`   | List user's hotels |       |
+| `GET`  | `/:id`  | Get specific hotel |       |
+| `PUT`  | `/:id`  | Update hotel    |       |
+| `DELETE` | `/:id`  | Delete hotel    |       |
 
 ### **Booking Management** (`/api/bookings`)
 
-| Method | Endpoint      | Description        | Auth Required |
+| Method | Endpoint   | Description    | Auth Required |
 | ------ | ------------- | ------------------ | ------------- |
-| `POST` | `/hotels/:id` | Create booking     | ✅            |
-| `GET`  | `/hotel/:id`  | Get hotel bookings | ✅            |
+| `POST` | `/hotels/:id` | Create booking   |       |
+| `GET` | `/hotel/:id` | Get hotel bookings |       |
 
 ### **User Bookings** (`/api/my-bookings`)
 
-| Method | Endpoint | Description                | Auth Required |
+| Method | Endpoint | Description        | Auth Required |
 | ------ | -------- | -------------------------- | ------------- |
-| `GET`  | `/`      | Get user's booking history | ✅            |
+| `GET` | `/`   | Get user's booking history |       |
 
 ### **Business Insights** (`/api/business-insights`)
 
-| Method | Endpoint       | Description              | Auth Required |
+| Method | Endpoint    | Description       | Auth Required |
 | ------ | -------------- | ------------------------ | ------------- |
-| `GET`  | `/dashboard`   | Analytics dashboard data | ✅            |
-| `GET`  | `/forecast`    | Business forecasting     | ✅            |
-| `GET`  | `/performance` | Performance metrics      | ✅            |
+| `GET` | `/dashboard`  | Analytics dashboard data |       |
+| `GET` | `/forecast`  | Business forecasting   |       |
+| `GET` | `/performance` | Performance metrics   |       |
 
 ### **Health Check** (`/api/health`)
 
-| Method | Endpoint    | Description             | Auth Required |
+| Method | Endpoint  | Description       | Auth Required |
 | ------ | ----------- | ----------------------- | ------------- |
-| `GET`  | `/`         | Basic health check      | ❌            |
-| `GET`  | `/detailed` | Detailed system metrics | ❌            |
+| `GET` | `/`     | Basic health check   |       |
+| `GET` | `/detailed` | Detailed system metrics |       |
 
 ---
 
-## 🔐 Authentication System
+## Authentication System
 
 ### **Dual Authentication Strategy**
 
@@ -245,32 +245,32 @@ This backend implements a **dual authentication system** to support both modern 
 ```typescript
 // Authentication middleware
 const verifyToken = (req: Request, res: Response, next: NextFunction) => {
-  // First, check Authorization header (for privacy browsers)
-  const authHeader = req.headers.authorization;
-  if (authHeader && authHeader.startsWith("Bearer ")) {
-    const token = authHeader.substring(7);
-    try {
-      const decoded = jwt.verify(token, process.env.JWT_SECRET_KEY!);
-      req.userId = decoded.userId;
-      return next();
-    } catch (error) {
-      // Continue to cookie check
-    }
-  }
-
-  // Fallback to cookie-based auth (for normal browsers)
-  const token = req.cookies.auth_token;
-  if (!token) {
-    return res.status(401).json({ message: "unauthorized" });
-  }
-
+ // First, check Authorization header (for privacy browsers)
+ const authHeader = req.headers.authorization;
+ if (authHeader && authHeader.startsWith("Bearer ")) {
+  const token = authHeader.substring(7);
   try {
-    const decoded = jwt.verify(token, process.env.JWT_SECRET_KEY!);
-    req.userId = decoded.userId;
-    next();
+   const decoded = jwt.verify(token, process.env.JWT_SECRET_KEY!);
+   req.userId = decoded.userId;
+   return next();
   } catch (error) {
-    res.status(401).json({ message: "unauthorized" });
+   // Continue to cookie check
   }
+ }
+
+ // Fallback to cookie-based auth (for normal browsers)
+ const token = req.cookies.auth_token;
+ if (!token) {
+  return res.status(401).json({ message: "unauthorized" });
+ }
+
+ try {
+  const decoded = jwt.verify(token, process.env.JWT_SECRET_KEY!);
+  req.userId = decoded.userId;
+  next();
+ } catch (error) {
+  res.status(401).json({ message: "unauthorized" });
+ }
 };
 ```
 
@@ -279,42 +279,42 @@ const verifyToken = (req: Request, res: Response, next: NextFunction) => {
 ```typescript
 // Login endpoint returns both cookie and token
 res.cookie("auth_token", token, {
-  httpOnly: true,
-  secure: true,
-  sameSite: "none",
-  maxAge: 24 * 60 * 60 * 1000, // 24 hours
-  path: "/",
+ httpOnly: true,
+ secure: true,
+ sameSite: "none",
+ maxAge: 24 * 60 * 60 * 1000, // 24 hours
+ path: "/",
 });
 
 res.status(200).json({
-  userId: user._id,
-  token: token, // For privacy-focused browsers
-  message: "Login successful",
+ userId: user._id,
+ token: token, // For privacy-focused browsers
+ message: "Login successful",
 });
 ```
 
 ---
 
-## 🗄️ Database Models
+## ️ Database Models
 
 ### **User Model**
 
 ```typescript
 interface UserType {
-  _id: string;
-  email: string;
-  password: string;
-  firstName: string;
-  lastName: string;
-  role: "user" | "admin" | "hotel_owner";
-  phone?: string;
-  address?: Address;
-  totalBookings?: number;
-  totalSpent?: number;
-  lastLogin?: Date;
-  isActive?: boolean;
-  createdAt?: Date;
-  updatedAt?: Date;
+ _id: string;
+ email: string;
+ password: string;
+ firstName: string;
+ lastName: string;
+ role: "user" | "admin" | "hotel_owner";
+ phone?: string;
+ address?: Address;
+ totalBookings?: number;
+ totalSpent?: number;
+ lastLogin?: Date;
+ isActive?: boolean;
+ createdAt?: Date;
+ updatedAt?: Date;
 }
 ```
 
@@ -322,27 +322,27 @@ interface UserType {
 
 ```typescript
 interface HotelType {
-  _id: string;
-  userId: string;
-  name: string;
-  city: string;
-  country: string;
-  description: string;
-  type: string[];
-  adultCount: number;
-  childCount: number;
-  facilities: string[];
-  pricePerNight: number;
-  starRating: number;
-  imageUrls: string[];
-  contact?: Contact;
-  policies?: Policies;
-  totalBookings?: number;
-  totalRevenue?: number;
-  averageRating?: number;
-  isActive?: boolean;
-  createdAt?: Date;
-  updatedAt?: Date;
+ _id: string;
+ userId: string;
+ name: string;
+ city: string;
+ country: string;
+ description: string;
+ type: string[];
+ adultCount: number;
+ childCount: number;
+ facilities: string[];
+ pricePerNight: number;
+ starRating: number;
+ imageUrls: string[];
+ contact?: Contact;
+ policies?: Policies;
+ totalBookings?: number;
+ totalRevenue?: number;
+ averageRating?: number;
+ isActive?: boolean;
+ createdAt?: Date;
+ updatedAt?: Date;
 }
 ```
 
@@ -350,27 +350,27 @@ interface HotelType {
 
 ```typescript
 interface BookingType {
-  _id: string;
-  userId: string;
-  hotelId: string;
-  firstName: string;
-  lastName: string;
-  email: string;
-  adultCount: number;
-  childCount: number;
-  checkIn: Date;
-  checkOut: Date;
-  totalCost: number;
-  status: "pending" | "confirmed" | "cancelled" | "completed";
-  paymentStatus: "pending" | "paid" | "failed";
-  createdAt?: Date;
-  updatedAt?: Date;
+ _id: string;
+ userId: string;
+ hotelId: string;
+ firstName: string;
+ lastName: string;
+ email: string;
+ adultCount: number;
+ childCount: number;
+ checkIn: Date;
+ checkOut: Date;
+ totalCost: number;
+ status: "pending" | "confirmed" | "cancelled" | "completed";
+ paymentStatus: "pending" | "paid" | "failed";
+ createdAt?: Date;
+ updatedAt?: Date;
 }
 ```
 
 ---
 
-## 🔒 Security Features
+## Security Features
 
 ### **Rate Limiting**
 
@@ -378,10 +378,10 @@ interface BookingType {
 import rateLimit from "express-rate-limit";
 
 const limiter = rateLimit({
-  windowMs: 15 * 60 * 1000, // 15 minutes
-  max: 100, // limit each IP to 100 requests per windowMs
-  standardHeaders: true,
-  legacyHeaders: false,
+ windowMs: 15 * 60 * 1000, // 15 minutes
+ max: 100, // limit each IP to 100 requests per windowMs
+ standardHeaders: true,
+ legacyHeaders: false,
 });
 
 app.use(limiter);
@@ -391,12 +391,12 @@ app.use(limiter);
 
 ```typescript
 app.use(
-  cors({
-    origin: allowedOrigins,
-    credentials: true,
-    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
-    allowedHeaders: ["Content-Type", "Authorization", "Cookie"],
-  }),
+ cors({
+  origin: allowedOrigins,
+  credentials: true,
+  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+  allowedHeaders: ["Content-Type", "Authorization", "Cookie"],
+ }),
 );
 ```
 
@@ -406,143 +406,143 @@ app.use(
 import { body } from "express-validator";
 
 const validateHotel = [
-  body("name").notEmpty().withMessage("Name is required"),
-  body("city").notEmpty().withMessage("City is required"),
-  body("pricePerNight").isNumeric().withMessage("Price must be a number"),
-  body("facilities").isArray().withMessage("Facilities must be an array"),
+ body("name").notEmpty().withMessage("Name is required"),
+ body("city").notEmpty().withMessage("City is required"),
+ body("pricePerNight").isNumeric().withMessage("Price must be a number"),
+ body("facilities").isArray().withMessage("Facilities must be an array"),
 ];
 ```
 
 ---
 
-## 💳 Payment Integration
+## Payment Integration
 
 ### **Stripe Payment Flow**
 
 ```typescript
 // Create payment intent
 export const createPaymentIntent = async (req: Request, res: Response) => {
-  try {
-    const { numberOfNights } = req.body;
-    const hotelId = req.params.hotelId;
+ try {
+  const { numberOfNights } = req.body;
+  const hotelId = req.params.hotelId;
 
-    const hotel = await Hotel.findById(hotelId);
-    if (!hotel) {
-      return res.status(404).json({ message: "Hotel not found" });
-    }
-
-    const totalCost = hotel.pricePerNight * numberOfNights;
-
-    const paymentIntent = await stripe.paymentIntents.create({
-      amount: totalCost * 100, // Convert to cents
-      currency: "usd",
-      metadata: {
-        hotelId,
-        userId: req.userId,
-      },
-    });
-
-    res.json({
-      paymentIntentId: paymentIntent.id,
-      clientSecret: paymentIntent.client_secret,
-    });
-  } catch (error) {
-    res.status(500).json({ message: "Error creating payment intent" });
+  const hotel = await Hotel.findById(hotelId);
+  if (!hotel) {
+   return res.status(404).json({ message: "Hotel not found" });
   }
+
+  const totalCost = hotel.pricePerNight * numberOfNights;
+
+  const paymentIntent = await stripe.paymentIntents.create({
+   amount: totalCost * 100, // Convert to cents
+   currency: "usd",
+   metadata: {
+    hotelId,
+    userId: req.userId,
+   },
+  });
+
+  res.json({
+   paymentIntentId: paymentIntent.id,
+   clientSecret: paymentIntent.client_secret,
+  });
+ } catch (error) {
+  res.status(500).json({ message: "Error creating payment intent" });
+ }
 };
 ```
 
 ---
 
-## 🖼️ File Upload System
+## ️ File Upload System
 
 ### **Cloudinary Integration**
 
 ```typescript
 // Image upload middleware
 const uploadImages = async (imageFiles: any[]) => {
-  const uploadPromises = imageFiles.map(async (image) => {
-    const b64 = Buffer.from(image.buffer).toString("base64");
-    let dataURI = "data:" + image.mimetype + ";base64," + b64;
+ const uploadPromises = imageFiles.map(async (image) => {
+  const b64 = Buffer.from(image.buffer).toString("base64");
+  let dataURI = "data:" + image.mimetype + ";base64," + b64;
 
-    const res = await cloudinary.v2.uploader.upload(dataURI, {
-      folder: "hotel-booking",
-      transformation: [
-        { width: 800, height: 600, crop: "fill" },
-        { quality: "auto" },
-      ],
-    });
-
-    return res.url;
+  const res = await cloudinary.v2.uploader.upload(dataURI, {
+   folder: "hotel-booking",
+   transformation: [
+    { width: 800, height: 600, crop: "fill" },
+    { quality: "auto" },
+   ],
   });
 
-  return await Promise.all(uploadPromises);
+  return res.url;
+ });
+
+ return await Promise.all(uploadPromises);
 };
 ```
 
 ---
 
-## 📊 Analytics Engine
+## Analytics Engine
 
 ### **Business Insights API**
 
 ```typescript
 // Analytics dashboard endpoint
 export const getAnalyticsDashboard = async (req: Request, res: Response) => {
-  try {
-    const userId = req.userId;
+ try {
+  const userId = req.userId;
 
-    // Get user's hotels
-    const hotels = await Hotel.find({ userId });
-    const hotelIds = hotels.map((hotel) => hotel._id);
+  // Get user's hotels
+  const hotels = await Hotel.find({ userId });
+  const hotelIds = hotels.map((hotel) => hotel._id);
 
-    // Calculate metrics
-    const totalRevenue = await Booking.aggregate([
-      { $match: { hotelId: { $in: hotelIds } } },
-      { $group: { _id: null, total: { $sum: "$totalCost" } } },
-    ]);
+  // Calculate metrics
+  const totalRevenue = await Booking.aggregate([
+   { $match: { hotelId: { $in: hotelIds } } },
+   { $group: { _id: null, total: { $sum: "$totalCost" } } },
+  ]);
 
-    const totalBookings = await Booking.countDocuments({
-      hotelId: { $in: hotelIds },
-    });
+  const totalBookings = await Booking.countDocuments({
+   hotelId: { $in: hotelIds },
+  });
 
-    res.json({
-      totalRevenue: totalRevenue[0]?.total || 0,
-      totalBookings,
-      averageRating: 4.5,
-      occupancyRate: 75.2,
-      // More metrics...
-    });
-  } catch (error) {
-    res.status(500).json({ message: "Error fetching analytics" });
-  }
+  res.json({
+   totalRevenue: totalRevenue[0]?.total || 0,
+   totalBookings,
+   averageRating: 4.5,
+   occupancyRate: 75.2,
+   // More metrics...
+  });
+ } catch (error) {
+  res.status(500).json({ message: "Error fetching analytics" });
+ }
 };
 ```
 
 ---
 
-## 🚀 Deployment
+## Deployment
 
 ### **Coolify Deployment (VPS)**
 
 1. **Connect Repository**
-   - Add your GitHub repository to Coolify
-   - Set root directory: `hotel-booking-backend`
+  - Add your GitHub repository to Coolify
+  - Set root directory: `hotel-booking-backend`
 
 2. **Build Configuration**
 
-   ```bash
-   Build Command: npm run build
-   Start Command: npm start
-   ```
+  ```bash
+  Build Command: npm run build
+  Start Command: npm start
+  ```
 
 3. **Environment Variables**
-   - Set all required environment variables in Coolify
-   - Ensure `NODE_ENV=production`
+  - Set all required environment variables in Coolify
+  - Ensure `NODE_ENV=production`
 
 4. **Deploy**
-   - Coolify deploys from your VPS; trigger redeploy after pushing changes
-   - Monitor deployment logs for any issues
+  - Coolify deploys from your VPS; trigger redeploy after pushing changes
+  - Monitor deployment logs for any issues
 
 ### **Production Checklist**
 
@@ -556,7 +556,7 @@ export const getAnalyticsDashboard = async (req: Request, res: Response) => {
 
 ---
 
-## 🧪 Testing
+## Testing
 
 ### **API Testing**
 
@@ -566,8 +566,8 @@ curl https://your-backend-domain.com/api/health
 
 # Test authentication
 curl -X POST https://your-backend-domain.com/api/auth/login \
-  -H "Content-Type: application/json" \
-  -d '{"email":"test@example.com","password":"password123"}'
+ -H "Content-Type: application/json" \
+ -d '{"email":"test@example.com","password":"password123"}'
 ```
 
 ### **Load Testing**
@@ -582,7 +582,7 @@ artillery quick --count 20 --num 10 https://your-backend-domain.com/api/health
 
 ---
 
-## 🔧 Development Commands
+## Development Commands
 
 ```bash
 # Development with hot reload
@@ -603,7 +603,7 @@ npm run lint
 
 ---
 
-## 📈 Performance Optimization
+## Performance Optimization
 
 ### **Database Optimization**
 
@@ -621,27 +621,27 @@ npm run lint
 
 ---
 
-## 🔗 Integration Examples
+## Integration Examples
 
 ### **Frontend Integration**
 
 ```typescript
 // Example: Fetch hotels with search
 const searchHotels = async (searchParams: SearchParams) => {
-  const queryParams = new URLSearchParams();
-  Object.entries(searchParams).forEach(([key, value]) => {
-    if (value) queryParams.append(key, value.toString());
-  });
+ const queryParams = new URLSearchParams();
+ Object.entries(searchParams).forEach(([key, value]) => {
+  if (value) queryParams.append(key, value.toString());
+ });
 
-  const response = await fetch(
-    `${API_BASE_URL}/api/hotels/search?${queryParams}`,
-  );
+ const response = await fetch(
+  `${API_BASE_URL}/api/hotels/search?${queryParams}`,
+ );
 
-  if (!response.ok) {
-    throw new Error("Error fetching hotels");
-  }
+ if (!response.ok) {
+  throw new Error("Error fetching hotels");
+ }
 
-  return response.json();
+ return response.json();
 };
 ```
 
@@ -650,41 +650,41 @@ const searchHotels = async (searchParams: SearchParams) => {
 ```typescript
 // Example: React Native integration
 const apiClient = {
-  baseURL: "https://your-backend-domain.com/api",
+ baseURL: "https://your-backend-domain.com/api",
 
-  async request(endpoint: string, options: RequestInit = {}) {
-    const response = await fetch(`${this.baseURL}${endpoint}`, {
-      headers: {
-        "Content-Type": "application/json",
-        ...options.headers,
-      },
-      ...options,
-    });
+ async request(endpoint: string, options: RequestInit = {}) {
+  const response = await fetch(`${this.baseURL}${endpoint}`, {
+   headers: {
+    "Content-Type": "application/json",
+    ...options.headers,
+   },
+   ...options,
+  });
 
-    return response.json();
-  },
+  return response.json();
+ },
 };
 ```
 
 ---
 
-## 🎯 Key Features Summary
+## Key Features Summary
 
-### **✅ Production Ready**
+### ** Production Ready**
 
 - **Scalable Architecture**: Modular design for easy scaling
 - **Security First**: Comprehensive security measures
 - **Error Handling**: Robust error handling and logging
 - **Performance Optimized**: Efficient database queries and caching
 
-### **✅ Developer Friendly**
+### ** Developer Friendly**
 
 - **TypeScript**: Full type safety throughout
 - **Clear Documentation**: Comprehensive API documentation
 - **Modular Design**: Easy to extend and maintain
 - **Testing Ready**: Built with testing in mind
 
-### **✅ Business Ready**
+### ** Business Ready**
 
 - **Payment Processing**: Complete Stripe integration
 - **Analytics**: Real-time business insights
@@ -693,23 +693,23 @@ const apiClient = {
 
 ---
 
-## 🚀 Happy Coding! 🎉
+## Happy Coding! 
 
 This backend is designed to be **production-ready**, **developer-friendly**, and **business-focused**. Whether you're learning full-stack development, building a startup, or extending an existing platform, this backend provides a solid foundation.
 
 **Key Benefits:**
 
-- 🎓 **Learning Resource**: Complete MERN stack backend implementation
-- 🏢 **Business Ready**: Production-grade features and security
-- 🔧 **Extensible**: Easy to add new features and integrations
-- 📚 **Well Documented**: Comprehensive documentation and examples
+- **Learning Resource**: Complete MERN stack backend implementation
+- **Business Ready**: Production-grade features and security
+- **Extensible**: Easy to add new features and integrations
+- **Well Documented**: Comprehensive documentation and examples
 
-**Get Started Today!** 🚀
+**Get Started Today!** 
 
 This is an **open-source project** - feel free to use, enhance, and extend this project further!
 
 If you have any questions or want to share your work, reach out via GitHub or my portfolio at [https://github.com/shrejal25](https://github.com/shrejal25).
 
-**Enjoy building and learning!** 🚀
+**Enjoy building and learning!** 
 
-Thank you! 😊
+Thank you! 

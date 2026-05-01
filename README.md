@@ -30,7 +30,7 @@ A comprehensive, production-ready hotel booking platform built with the MERN sta
 ![Screenshot 2025-09-04 at 12 10 51](https://github.com/user-attachments/assets/22ea115f-3383-4dcb-9540-448d4639383f)
 ![Screenshot 2025-09-04 at 12 11 04](https://github.com/user-attachments/assets/20c8c57e-c224-4abe-b64d-1c0eb3fbcc91)
 
-## 🎯 Project Overview
+## Project Overview
 
 ### **What is this Project?**
 
@@ -47,21 +47,21 @@ This project serves as a **comprehensive hotel booking ecosystem** that bridges 
 
 ### **Key Problems Solved**
 
-#### 🏨 **For Travelers:**
+#### **For Travelers:**
 
 - **Discovery**: Advanced search with multiple filters (price, location, amenities, ratings)
 - **Booking**: Seamless booking process with secure payment integration
 - **Management**: Easy access to booking history and travel plans
 - **Trust**: Transparent pricing, reviews, and hotel information
 
-#### 🏢 **For Hotel Owners:**
+#### **For Hotel Owners:**
 
 - **Property Management**: Complete CRUD operations for hotel listings
 - **Booking Management**: Real-time booking tracking and guest information
 - **Analytics**: Comprehensive business insights and performance metrics
 - **Revenue Optimization**: Pricing strategies and occupancy analysis
 
-#### 🔧 **For Developers:**
+#### **For Developers:**
 
 - **Learning Resource**: Complete MERN stack implementation
 - **Best Practices**: Modern development patterns and architecture
@@ -103,36 +103,36 @@ This project serves as a **comprehensive hotel booking ecosystem** that bridges 
 #### **Frontend Architecture:**
 
 ```bash
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   React App     │    │  React Query    │    │  Tailwind CSS   │
-│   (TypeScript)  │◄──►│  (State Mgmt)   │◄──►│   (Styling)     │
-└─────────────────┘    └─────────────────┘    └─────────────────┘
-         │                       │                       │
-         ▼                       ▼                       ▼
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│  React Router   │    │   Shadcn UI     │    │   Vite Build    │
-│  (Navigation)   │    │  (Components)   │    │   (Dev Server)  │
-└─────────────────┘    └─────────────────┘    └─────────────────┘
+┌─────────────────┐  ┌─────────────────┐  ┌─────────────────┐
+│  React App   │  │ React Query  │  │ Tailwind CSS  │
+│  (TypeScript) │◄──►│ (State Mgmt)  │◄──►│  (Styling)   │
+└─────────────────┘  └─────────────────┘  └─────────────────┘
+     │            │            │
+     ▼            ▼            ▼
+┌─────────────────┐  ┌─────────────────┐  ┌─────────────────┐
+│ React Router  │  │  Shadcn UI   │  │  Vite Build  │
+│ (Navigation)  │  │ (Components)  │  │  (Dev Server) │
+└─────────────────┘  └─────────────────┘  └─────────────────┘
 ```
 
 #### **Backend Architecture:**
 
 ```bash
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   Express.js    │    │   MongoDB      │    │   JWT Auth      │
-│   (API Server)  │◄──►│   (Database)   │◄──►│   (Security)    │
-└─────────────────┘    └─────────────────┘    └─────────────────┘
-         │                       │                       │
-         ▼                       ▼                       ▼
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   Multer        │    │   Cloudinary    │    │   Stripe        │
-│  (File Upload)  │    │  (Image Mgmt)   │    │  (Payments)     │
-└─────────────────┘    └─────────────────┘    └─────────────────┘
+┌─────────────────┐  ┌─────────────────┐  ┌─────────────────┐
+│  Express.js  │  │  MongoDB   │  │  JWT Auth   │
+│  (API Server) │◄──►│  (Database)  │◄──►│  (Security)  │
+└─────────────────┘  └─────────────────┘  └─────────────────┘
+     │            │            │
+     ▼            ▼            ▼
+┌─────────────────┐  ┌─────────────────┐  ┌─────────────────┐
+│  Multer    │  │  Cloudinary  │  │  Stripe    │
+│ (File Upload) │  │ (Image Mgmt)  │  │ (Payments)   │
+└─────────────────┘  └─────────────────┘  └─────────────────┘
 ```
 
 ### **Feature Highlights**
 
-#### 🌟 **Innovative Features:**
+#### **Innovative Features:**
 
 - **Smart Search Algorithm**: AI-powered hotel recommendations
 - **Real-time Availability**: Live booking status and instant confirmation
@@ -140,7 +140,7 @@ This project serves as a **comprehensive hotel booking ecosystem** that bridges 
 - **Multi-language Support**: Internationalization ready
 - **Progressive Web App**: Offline capabilities and app-like experience
 
-#### 🔒 **Security Features:**
+#### **Security Features:**
 
 - **Dual Authentication**: Cookie-based + Authorization header support
 - **Privacy Compliance**: GDPR-ready data handling
@@ -148,7 +148,7 @@ This project serves as a **comprehensive hotel booking ecosystem** that bridges 
 - **Input Validation**: Comprehensive data sanitization
 - **Secure Payments**: PCI-compliant payment processing
 
-#### 📱 **User Experience:**
+#### **User Experience:**
 
 - **Responsive Design**: Optimized for all screen sizes
 - **Progressive Enhancement**: Works without JavaScript
@@ -183,24 +183,24 @@ This project serves as a **comprehensive hotel booking ecosystem** that bridges 
 
 #### **Phase 1 (Current):**
 
-- ✅ Core booking functionality
-- ✅ Hotel management system
-- ✅ Basic analytics dashboard
-- ✅ Payment integration
+- Core booking functionality
+- Hotel management system
+- Basic analytics dashboard
+- Payment integration
 
 #### **Phase 2 (Planned):**
 
-- 🔄 Advanced search with AI recommendations
-- 🔄 Real-time chat support
-- 🔄 Mobile app development
-- 🔄 Multi-language support
+- Advanced search with AI recommendations
+- Real-time chat support
+- Mobile app development
+- Multi-language support
 
 #### **Phase 3 (Future):**
 
-- 📅 Blockchain-based booking verification
-- 📅 VR hotel tours
-- 📅 AI-powered pricing optimization
-- 📅 Integration with travel APIs
+- Blockchain-based booking verification
+- VR hotel tours
+- AI-powered pricing optimization
+- Integration with travel APIs
 
 ### **Success Metrics**
 
@@ -236,7 +236,7 @@ This project serves as a **comprehensive hotel booking ecosystem** that bridges 
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Features](#-features)
 - [Tech Stack](#-tech-stack)
@@ -257,9 +257,9 @@ This project serves as a **comprehensive hotel booking ecosystem** that bridges 
 
 ---
 
-## ✨ Features
+## Features
 
-### 🏨 Hotel Management
+### Hotel Management
 
 - **Multi-role System**: User, Hotel Owner, and Admin roles
 - **Hotel CRUD Operations**: Create, read, update, delete hotel listings
@@ -267,7 +267,7 @@ This project serves as a **comprehensive hotel booking ecosystem** that bridges 
 - **Advanced Hotel Details**: Location, amenities, policies, contact information
 - **Hotel Analytics**: Booking statistics, revenue tracking, occupancy rates
 
-### 🔍 Advanced Search & Filtering
+### Advanced Search & Filtering
 
 - **Smart Search**: Destination-based hotel discovery
 - **Multi-filter System**: Price range, star rating, hotel types, facilities
@@ -275,7 +275,7 @@ This project serves as a **comprehensive hotel booking ecosystem** that bridges 
 - **Sorting Options**: Price, rating, distance, relevance
 - **Pagination**: Efficient data loading for large datasets
 
-### 📅 Booking System
+### Booking System
 
 - **Real-time Availability**: Check-in/check-out date validation
 - **Guest Management**: Adult and child count tracking
@@ -283,7 +283,7 @@ This project serves as a **comprehensive hotel booking ecosystem** that bridges 
 - **Booking Status**: Pending, confirmed, cancelled, completed, refunded
 - **Booking History**: Complete booking logs and analytics
 
-### 📊 Analytics Dashboard
+### Analytics Dashboard
 
 - **Real-time Metrics**: Revenue, bookings, occupancy rates
 - **Performance Charts**: Revenue trends, booking patterns
@@ -291,7 +291,7 @@ This project serves as a **comprehensive hotel booking ecosystem** that bridges 
 - **Hotel Performance**: Individual hotel analytics
 - **User Analytics**: User behavior and preferences
 
-### 🔐 Authentication & Security
+### Authentication & Security
 
 - **JWT Authentication**: Secure token-based authentication
 - **Role-based Access Control**: Granular permissions
@@ -299,7 +299,7 @@ This project serves as a **comprehensive hotel booking ecosystem** that bridges 
 - **Rate Limiting**: API request throttling
 - **CORS Protection**: Cross-origin resource sharing security
 
-### 🎨 Modern UI/UX
+### Modern UI/UX
 
 - **Responsive Design**: Mobile-first approach
 - **Shadcn UI Components**: Modern, accessible UI components
@@ -310,7 +310,7 @@ This project serves as a **comprehensive hotel booking ecosystem** that bridges 
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 ### Frontend
 
@@ -351,56 +351,56 @@ This project serves as a **comprehensive hotel booking ecosystem** that bridges 
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```bash
 hotel-booking/
-├── hotel-booking-frontend/          # React frontend application
-│   ├── src/
-│   │   ├── components/             # Reusable UI components
-│   │   │   ├── ui/                 # Shadcn UI components
-│   │   │   ├── AdvancedSearch.tsx  # Advanced search component
-│   │   │   ├── Hero.tsx           # Landing page hero section
-│   │   │   ├── Header.tsx         # Navigation header
-│   │   │   └── ...
-│   │   ├── pages/                 # Page components
-│   │   │   ├── Home.tsx           # Landing page
-│   │   │   ├── Search.tsx        # Hotel search page
-│   │   │   ├── Detail.tsx        # Hotel details page
-│   │   │   ├── Booking.tsx       # Booking page
-│   │   │   ├── MyHotels.tsx      # Hotel management
-│   │   │   ├── MyBookings.tsx    # Booking management
-│   │   │   ├── AnalyticsDashboard.tsx # Analytics
-│   │   │   └── ...
-│   │   ├── forms/                # Form components
-│   │   ├── hooks/               # Custom React hooks
-│   │   ├── contexts/            # React contexts
-│   │   ├── layouts/             # Layout components
-│   │   └── api-client.ts        # API client functions
-│   ├── package.json
-│   └── vite.config.ts
-├── hotel-booking-backend/         # Node.js backend application
-│   ├── src/
-│   │   ├── routes/              # API route handlers
-│   │   │   ├── auth.ts          # Authentication routes
-│   │   │   ├── hotels.ts        # Hotel management routes
-│   │   │   ├── bookings.ts      # Booking routes
-│   │   │   ├── analytics.ts     # Analytics routes
-│   │   │   └── ...
-│   │   ├── models/              # MongoDB models
-│   │   ├── middleware/         # Express middleware
-│   │   ├── index.ts            # Server entry point
-│   │   └── swagger.ts          # API documentation
-│   └── package.json
-├── shared/                       # Shared TypeScript types
-│   └── types.ts
-├── e2e-tests/                   # End-to-end tests
-└── data/                        # Sample data and images
+├── hotel-booking-frontend/     # React frontend application
+│  ├── src/
+│  │  ├── components/       # Reusable UI components
+│  │  │  ├── ui/         # Shadcn UI components
+│  │  │  ├── AdvancedSearch.tsx # Advanced search component
+│  │  │  ├── Hero.tsx      # Landing page hero section
+│  │  │  ├── Header.tsx     # Navigation header
+│  │  │  └── ...
+│  │  ├── pages/         # Page components
+│  │  │  ├── Home.tsx      # Landing page
+│  │  │  ├── Search.tsx    # Hotel search page
+│  │  │  ├── Detail.tsx    # Hotel details page
+│  │  │  ├── Booking.tsx    # Booking page
+│  │  │  ├── MyHotels.tsx   # Hotel management
+│  │  │  ├── MyBookings.tsx  # Booking management
+│  │  │  ├── AnalyticsDashboard.tsx # Analytics
+│  │  │  └── ...
+│  │  ├── forms/        # Form components
+│  │  ├── hooks/        # Custom React hooks
+│  │  ├── contexts/      # React contexts
+│  │  ├── layouts/       # Layout components
+│  │  └── api-client.ts    # API client functions
+│  ├── package.json
+│  └── vite.config.ts
+├── hotel-booking-backend/     # Node.js backend application
+│  ├── src/
+│  │  ├── routes/       # API route handlers
+│  │  │  ├── auth.ts     # Authentication routes
+│  │  │  ├── hotels.ts    # Hotel management routes
+│  │  │  ├── bookings.ts   # Booking routes
+│  │  │  ├── analytics.ts   # Analytics routes
+│  │  │  └── ...
+│  │  ├── models/       # MongoDB models
+│  │  ├── middleware/     # Express middleware
+│  │  ├── index.ts      # Server entry point
+│  │  └── swagger.ts     # API documentation
+│  └── package.json
+├── shared/            # Shared TypeScript types
+│  └── types.ts
+├── e2e-tests/          # End-to-end tests
+└── data/            # Sample data and images
 ```
 
 ---
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 
@@ -461,7 +461,7 @@ npm run dev
 
 ---
 
-## 🔧 Environment Variables
+## Environment Variables
 
 ### Backend (.env)
 
@@ -546,7 +546,7 @@ node -e "console.log(require('crypto').randomBytes(64).toString('hex'))"
 
 ---
 
-## 📚 API Documentation
+## API Documentation
 
 ### Authentication Endpoints
 
@@ -556,12 +556,12 @@ Register a new user account.
 
 ```typescript
 interface RegisterData {
-  email: string;
-  password: string;
-  firstName: string;
-  lastName: string;
-  phone?: string;
-  address?: Address;
+ email: string;
+ password: string;
+ firstName: string;
+ lastName: string;
+ phone?: string;
+ address?: Address;
 }
 ```
 
@@ -571,8 +571,8 @@ Authenticate user and get JWT token.
 
 ```typescript
 interface LoginData {
-  email: string;
-  password: string;
+ email: string;
+ password: string;
 }
 ```
 
@@ -592,17 +592,17 @@ Get all hotels with pagination and filtering.
 
 ```typescript
 interface HotelSearchParams {
-  destination?: string;
-  checkIn?: string;
-  checkOut?: string;
-  adultCount?: string;
-  childCount?: string;
-  page?: string;
-  facilities?: string[];
-  types?: string[];
-  stars?: string[];
-  maxPrice?: string;
-  sortOption?: string;
+ destination?: string;
+ checkIn?: string;
+ checkOut?: string;
+ adultCount?: string;
+ childCount?: string;
+ page?: string;
+ facilities?: string[];
+ types?: string[];
+ stars?: string[];
+ maxPrice?: string;
+ sortOption?: string;
 }
 ```
 
@@ -616,17 +616,17 @@ Create a new hotel (requires authentication).
 
 ```typescript
 interface HotelFormData {
-  name: string;
-  city: string;
-  country: string;
-  description: string;
-  type: string[];
-  adultCount: number;
-  childCount: number;
-  facilities: string[];
-  pricePerNight: number;
-  starRating: number;
-  imageFiles: File[];
+ name: string;
+ city: string;
+ country: string;
+ description: string;
+ type: string[];
+ adultCount: number;
+ childCount: number;
+ facilities: string[];
+ pricePerNight: number;
+ starRating: number;
+ imageFiles: File[];
 }
 ```
 
@@ -646,14 +646,14 @@ Create a new booking.
 
 ```typescript
 interface BookingData {
-  firstName: string;
-  lastName: string;
-  email: string;
-  adultCount: number;
-  childCount: number;
-  checkIn: Date;
-  checkOut: Date;
-  totalCost: number;
+ firstName: string;
+ lastName: string;
+ email: string;
+ adultCount: number;
+ childCount: number;
+ checkIn: Date;
+ checkOut: Date;
+ totalCost: number;
 }
 ```
 
@@ -673,12 +673,12 @@ Get comprehensive business insights data.
 
 ```typescript
 interface BusinessInsightsData {
-  totalRevenue: number;
-  totalBookings: number;
-  overview: OverviewData;
-  popularDestinations: DestinationData[];
-  dailyBookings: BookingData[];
-  hotelPerformance: HotelData[];
+ totalRevenue: number;
+ totalBookings: number;
+ overview: OverviewData;
+ popularDestinations: DestinationData[];
+ dailyBookings: BookingData[];
+ hotelPerformance: HotelData[];
 }
 ```
 
@@ -702,7 +702,7 @@ Detailed system metrics including memory usage and performance data.
 
 ---
 
-## 🧩 Key Components
+## Key Components
 
 ### AdvancedSearch Component
 
@@ -711,11 +711,11 @@ A comprehensive search component with multiple filters and real-time suggestions
 ```typescript
 // Usage Example
 <AdvancedSearch
-  onSearch={(searchData) => {
-    // Handle search with advanced filters
-    console.log(searchData);
-  }}
-  isExpanded={false}
+ onSearch={(searchData) => {
+  // Handle search with advanced filters
+  console.log(searchData);
+ }}
+ isExpanded={false}
 />
 ```
 
@@ -734,9 +734,9 @@ Landing page hero section with gradient background and search integration.
 ```typescript
 // Usage Example
 <Hero
-  onSearch={(searchData) => {
-    // Handle search from hero section
-  }}
+ onSearch={(searchData) => {
+  // Handle search from hero section
+ }}
 />
 ```
 
@@ -771,10 +771,10 @@ Modal for viewing detailed booking information.
 ```typescript
 // Usage Example
 <BookingLogModal
-  isOpen={isModalOpen}
-  onClose={() => setIsModalOpen(false)}
-  hotelId="hotel-id"
-  hotelName="Hotel Name"
+ isOpen={isModalOpen}
+ onClose={() => setIsModalOpen(false)}
+ hotelId="hotel-id"
+ hotelName="Hotel Name"
 />
 ```
 
@@ -787,28 +787,28 @@ Modal for viewing detailed booking information.
 
 ---
 
-## 🗄 Database Schema
+## Database Schema
 
 ### User Model
 
 ```typescript
 interface UserType {
-  _id: string;
-  email: string;
-  password: string;
-  firstName: string;
-  lastName: string;
-  role: "user" | "admin" | "hotel_owner";
-  phone?: string;
-  address?: Address;
-  preferences?: UserPreferences;
-  totalBookings?: number;
-  totalSpent?: number;
-  lastLogin?: Date;
-  isActive?: boolean;
-  emailVerified?: boolean;
-  createdAt?: Date;
-  updatedAt?: Date;
+ _id: string;
+ email: string;
+ password: string;
+ firstName: string;
+ lastName: string;
+ role: "user" | "admin" | "hotel_owner";
+ phone?: string;
+ address?: Address;
+ preferences?: UserPreferences;
+ totalBookings?: number;
+ totalSpent?: number;
+ lastLogin?: Date;
+ isActive?: boolean;
+ emailVerified?: boolean;
+ createdAt?: Date;
+ updatedAt?: Date;
 }
 ```
 
@@ -816,32 +816,32 @@ interface UserType {
 
 ```typescript
 interface HotelType {
-  _id: string;
-  userId: string;
-  name: string;
-  city: string;
-  country: string;
-  description: string;
-  type: string[];
-  adultCount: number;
-  childCount: number;
-  facilities: string[];
-  pricePerNight: number;
-  starRating: number;
-  imageUrls: string[];
-  location?: Location;
-  contact?: Contact;
-  policies?: Policies;
-  amenities?: Amenities;
-  totalBookings?: number;
-  totalRevenue?: number;
-  averageRating?: number;
-  reviewCount?: number;
-  occupancyRate?: number;
-  isActive?: boolean;
-  isFeatured?: boolean;
-  createdAt?: Date;
-  updatedAt?: Date;
+ _id: string;
+ userId: string;
+ name: string;
+ city: string;
+ country: string;
+ description: string;
+ type: string[];
+ adultCount: number;
+ childCount: number;
+ facilities: string[];
+ pricePerNight: number;
+ starRating: number;
+ imageUrls: string[];
+ location?: Location;
+ contact?: Contact;
+ policies?: Policies;
+ amenities?: Amenities;
+ totalBookings?: number;
+ totalRevenue?: number;
+ averageRating?: number;
+ reviewCount?: number;
+ occupancyRate?: number;
+ isActive?: boolean;
+ isFeatured?: boolean;
+ createdAt?: Date;
+ updatedAt?: Date;
 }
 ```
 
@@ -849,32 +849,32 @@ interface HotelType {
 
 ```typescript
 interface BookingType {
-  _id: string;
-  userId: string;
-  hotelId: string;
-  firstName: string;
-  lastName: string;
-  email: string;
-  phone?: string;
-  adultCount: number;
-  childCount: number;
-  checkIn: Date;
-  checkOut: Date;
-  totalCost: number;
-  status: "pending" | "confirmed" | "cancelled" | "completed" | "refunded";
-  paymentStatus: "pending" | "paid" | "failed" | "refunded";
-  paymentMethod?: string;
-  specialRequests?: string;
-  cancellationReason?: string;
-  refundAmount?: number;
-  createdAt?: Date;
-  updatedAt?: Date;
+ _id: string;
+ userId: string;
+ hotelId: string;
+ firstName: string;
+ lastName: string;
+ email: string;
+ phone?: string;
+ adultCount: number;
+ childCount: number;
+ checkIn: Date;
+ checkOut: Date;
+ totalCost: number;
+ status: "pending" | "confirmed" | "cancelled" | "completed" | "refunded";
+ paymentStatus: "pending" | "paid" | "failed" | "refunded";
+ paymentMethod?: string;
+ specialRequests?: string;
+ cancellationReason?: string;
+ refundAmount?: number;
+ createdAt?: Date;
+ updatedAt?: Date;
 }
 ```
 
 ---
 
-## 🔐 Authentication & Authorization
+## Authentication & Authorization
 
 ### JWT Implementation
 
@@ -883,25 +883,25 @@ The application uses JWT tokens for secure authentication:
 ```typescript
 // Token generation
 const token = jwt.sign(
-  { userId: user._id, email: user.email, role: user.role },
-  process.env.JWT_SECRET!,
-  { expiresIn: process.env.JWT_EXPIRES_IN },
+ { userId: user._id, email: user.email, role: user.role },
+ process.env.JWT_SECRET!,
+ { expiresIn: process.env.JWT_EXPIRES_IN },
 );
 
 // Token verification middleware
 const verifyToken = (req: Request, res: Response, next: NextFunction) => {
-  const token = req.cookies.auth_token;
-  if (!token) {
-    return res.status(401).json({ message: "Access denied" });
-  }
+ const token = req.cookies.auth_token;
+ if (!token) {
+  return res.status(401).json({ message: "Access denied" });
+ }
 
-  try {
-    const decoded = jwt.verify(token, process.env.JWT_SECRET!);
-    req.userId = decoded.userId;
-    next();
-  } catch (error) {
-    res.status(401).json({ message: "Invalid token" });
-  }
+ try {
+  const decoded = jwt.verify(token, process.env.JWT_SECRET!);
+  req.userId = decoded.userId;
+  next();
+ } catch (error) {
+  res.status(401).json({ message: "Invalid token" });
+ }
 };
 ```
 
@@ -916,18 +916,18 @@ Different user roles have different permissions:
 ```typescript
 // Role verification middleware
 const requireRole = (roles: string[]) => {
-  return (req: Request, res: Response, next: NextFunction) => {
-    if (!roles.includes(req.userRole)) {
-      return res.status(403).json({ message: "Insufficient permissions" });
-    }
-    next();
-  };
+ return (req: Request, res: Response, next: NextFunction) => {
+  if (!roles.includes(req.userRole)) {
+   return res.status(403).json({ message: "Insufficient permissions" });
+  }
+  next();
+ };
 };
 ```
 
 ---
 
-## 💳 Payment Integration
+## Payment Integration
 
 ### Stripe Integration
 
@@ -936,18 +936,18 @@ The application integrates with Stripe for secure payment processing:
 ```typescript
 // Create payment intent
 const paymentIntent = await stripe.paymentIntents.create({
-  amount: totalCost * 100, // Convert to cents
-  currency: "usd",
-  metadata: {
-    hotelId,
-    userId,
-    bookingId,
-  },
+ amount: totalCost * 100, // Convert to cents
+ currency: "usd",
+ metadata: {
+  hotelId,
+  userId,
+  bookingId,
+ },
 });
 
 // Payment confirmation
 const confirmPayment = await stripe.paymentIntents.confirm(paymentIntentId, {
-  payment_method: paymentMethodId,
+ payment_method: paymentMethodId,
 });
 ```
 
@@ -962,7 +962,7 @@ const confirmPayment = await stripe.paymentIntents.confirm(paymentIntentId, {
 
 ---
 
-## 🔍 Search & Filtering
+## Search & Filtering
 
 ### Advanced Search Implementation
 
@@ -971,29 +971,29 @@ The search system supports multiple filtering options:
 ```typescript
 // Search query building
 const buildSearchQuery = (searchParams: SearchParams) => {
-  const query: any = {};
+ const query: any = {};
 
-  if (searchParams.destination) {
-    query.$or = [
-      { city: { $regex: searchParams.destination, $options: "i" } },
-      { country: { $regex: searchParams.destination, $options: "i" } },
-      { name: { $regex: searchParams.destination, $options: "i" } },
-    ];
-  }
+ if (searchParams.destination) {
+  query.$or = [
+   { city: { $regex: searchParams.destination, $options: "i" } },
+   { country: { $regex: searchParams.destination, $options: "i" } },
+   { name: { $regex: searchParams.destination, $options: "i" } },
+  ];
+ }
 
-  if (searchParams.maxPrice) {
-    query.pricePerNight = { $lte: parseInt(searchParams.maxPrice) };
-  }
+ if (searchParams.maxPrice) {
+  query.pricePerNight = { $lte: parseInt(searchParams.maxPrice) };
+ }
 
-  if (searchParams.facilities?.length) {
-    query.facilities = { $all: searchParams.facilities };
-  }
+ if (searchParams.facilities?.length) {
+  query.facilities = { $all: searchParams.facilities };
+ }
 
-  if (searchParams.types?.length) {
-    query.type = { $in: searchParams.types };
-  }
+ if (searchParams.types?.length) {
+  query.type = { $in: searchParams.types };
+ }
 
-  return query;
+ return query;
 };
 ```
 
@@ -1004,30 +1004,30 @@ Reusable filter components for different criteria:
 ```typescript
 // Price Filter Component
 const PriceFilter = ({ onPriceChange }: PriceFilterProps) => {
-  const [priceRange, setPriceRange] = useState([0, 1000]);
+ const [priceRange, setPriceRange] = useState([0, 1000]);
 
-  return (
-    <div className="space-y-2">
-      <label className="text-sm font-medium">Price Range</label>
-      <Slider
-        value={priceRange}
-        onChange={setPriceRange}
-        min={0}
-        max={1000}
-        step={10}
-      />
-      <div className="flex justify-between text-xs text-gray-500">
-        <span>£{priceRange[0]}</span>
-        <span>£{priceRange[1]}</span>
-      </div>
-    </div>
-  );
+ return (
+  <div className="space-y-2">
+   <label className="text-sm font-medium">Price Range</label>
+   <Slider
+    value={priceRange}
+    onChange={setPriceRange}
+    min={0}
+    max={1000}
+    step={10}
+   />
+   <div className="flex justify-between text-xs text-gray-500">
+    <span>£{priceRange[0]}</span>
+    <span>£{priceRange[1]}</span>
+   </div>
+  </div>
+ );
 };
 ```
 
 ---
 
-## 📊 Analytics Dashboard
+## Analytics Dashboard
 
 ### Real-time Analytics
 
@@ -1036,25 +1036,25 @@ The analytics dashboard provides comprehensive insights:
 ```typescript
 // Analytics data structure
 interface AnalyticsData {
-  overview: {
-    totalRevenue: number;
-    totalBookings: number;
-    averageRating: number;
-    occupancyRate: number;
-  };
-  trends: {
-    revenue: RevenueData[];
-    bookings: BookingData[];
-    ratings: RatingData[];
-  };
-  topPerformers: {
-    hotels: HotelAnalytics[];
-    destinations: DestinationAnalytics[];
-  };
-  forecasts: {
-    revenue: ForecastData[];
-    bookings: ForecastData[];
-  };
+ overview: {
+  totalRevenue: number;
+  totalBookings: number;
+  averageRating: number;
+  occupancyRate: number;
+ };
+ trends: {
+  revenue: RevenueData[];
+  bookings: BookingData[];
+  ratings: RatingData[];
+ };
+ topPerformers: {
+  hotels: HotelAnalytics[];
+  destinations: DestinationAnalytics[];
+ };
+ forecasts: {
+  revenue: ForecastData[];
+  bookings: ForecastData[];
+ };
 }
 ```
 
@@ -1065,28 +1065,28 @@ Interactive charts using Recharts library:
 ```typescript
 // Revenue Chart Component
 const RevenueChart = ({ data }: { data: RevenueData[] }) => {
-  return (
-    <ResponsiveContainer width="100%" height={300}>
-      <LineChart data={data}>
-        <CartesianGrid strokeDasharray="3 3" />
-        <XAxis dataKey="date" />
-        <YAxis />
-        <Tooltip />
-        <Line
-          type="monotone"
-          dataKey="revenue"
-          stroke="#8884d8"
-          strokeWidth={2}
-        />
-      </LineChart>
-    </ResponsiveContainer>
-  );
+ return (
+  <ResponsiveContainer width="100%" height={300}>
+   <LineChart data={data}>
+    <CartesianGrid strokeDasharray="3 3" />
+    <XAxis dataKey="date" />
+    <YAxis />
+    <Tooltip />
+    <Line
+     type="monotone"
+     dataKey="revenue"
+     stroke="#8884d8"
+     strokeWidth={2}
+    />
+   </LineChart>
+  </ResponsiveContainer>
+ );
 };
 ```
 
 ---
 
-## 🧪 Testing
+## Testing
 
 ### End-to-End Testing
 
@@ -1104,15 +1104,15 @@ npm test
 ```typescript
 // Example test: Hotel search functionality
 test("should search hotels with filters", async ({ page }) => {
-  await page.goto("/search");
+ await page.goto("/search");
 
-  // Fill search form
-  await page.fill('[data-testid="destination-input"]', "London");
-  await page.selectOption('[data-testid="adult-count"]', "2");
-  await page.click('[data-testid="search-button"]');
+ // Fill search form
+ await page.fill('[data-testid="destination-input"]', "London");
+ await page.selectOption('[data-testid="adult-count"]', "2");
+ await page.click('[data-testid="search-button"]');
 
-  // Verify results
-  await expect(page.locator('[data-testid="hotel-card"]')).toHaveCount(5);
+ // Verify results
+ await expect(page.locator('[data-testid="hotel-card"]')).toHaveCount(5);
 });
 ```
 
@@ -1127,7 +1127,7 @@ test("should search hotels with filters", async ({ page }) => {
 
 ---
 
-## 🚀 Deployment
+## Deployment
 
 ### Backend Deployment (Coolify on VPS)
 
@@ -1139,13 +1139,13 @@ npm run build
 ```
 
 1. **Environment variables setup:**
-   - Set all required environment variables in Coolify
-   - Ensure MongoDB connection string is production-ready
-   - Configure CORS for production domain
+  - Set all required environment variables in Coolify
+  - Ensure MongoDB connection string is production-ready
+  - Configure CORS for production domain
 
 2. **Deploy via Coolify:**
-   - Connect your GitHub repository to Coolify
-   - Redeploy the backend service when you push changes
+  - Connect your GitHub repository to Coolify
+  - Redeploy the backend service when you push changes
 
 ### Frontend Deployment (Netlify/Vercel)
 
@@ -1164,8 +1164,8 @@ npm run build
 ```
 
 1. **Environment variables:**
-   - Set `VITE_API_BASE_URL` to your production backend URL
-   - Configure Stripe keys for production
+  - Set `VITE_API_BASE_URL` to your production backend URL
+  - Configure Stripe keys for production
 
 ### Production Checklist
 
@@ -1179,7 +1179,7 @@ npm run build
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Please follow these steps:
 
@@ -1214,13 +1214,13 @@ git push origin feature/amazing-feature
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🎯 Learning Outcomes
+## Learning Outcomes
 
 ### What You'll Learn
 
@@ -1248,7 +1248,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 🔗 Useful Resources
+## Useful Resources
 
 ### Documentation
 
@@ -1275,12 +1275,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 🎉 Happy Coding! 🎉
+## Happy Coding! 
 
 This is an **open-source project** - feel free to use, enhance, and extend this project further!
 
 If you have any questions or want to share your work, reach out via GitHub or my portfolio at [https://github.com/shrejal25](https://github.com/shrejal25).
 
-**Enjoy building and learning!** 🚀
+**Enjoy building and learning!** 
 
-Thank you! 😊
+Thank you! 
